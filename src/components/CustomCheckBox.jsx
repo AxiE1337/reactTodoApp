@@ -9,7 +9,7 @@ export default function CustomCheckBox({ value, onChange }) {
             checked={value}
             onChange={onChange}
             type='checkbox'
-            className='w-8 h-8 rounded-full'
+            className='w-8 h-8 rounded-full text-green-600 focus:ring-0 focus:outline-white'
           />
         </label>
       </div>
